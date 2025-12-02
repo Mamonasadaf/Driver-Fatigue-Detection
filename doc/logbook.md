@@ -1,8 +1,9 @@
 # Project Logbook
 
+---
 
 ## Week 1: Initial Research & Paper Selection
-**Date Range:** Before October 22, 2025
+**Date Range:** October 15-21, 2025
 
 ### Meeting 1
 - Discussed and selected research paper for implementation
@@ -22,7 +23,7 @@
 ---
 
 ## Week 2: Literature Review Completion
-**Date Range:** October 22-27, 2024
+**Date Range:** October 22-27, 2025
 
 ### Meeting 2
 - Presented individual research findings
@@ -33,11 +34,11 @@
 - Completed comprehensive literature review
 - Documented related algorithms and techniques
 - Prepared technical background section
+- Compiled bibliography and references
 
 ### Deliverables
-- ✅ **Literature Review Document** (Completed)
-- ✅ Bibliography and reference list
-- ✅ Technical background documentation
+- **Literature Review Document** (Completed)
+- Bibliography and reference list
 
 ---
 
@@ -52,7 +53,7 @@
 **Date Range:** November 12-18, 2025
 
 ### Meeting 3
-- **GitHub Repository Created** ✅
+- **GitHub Repository Created**
 - Discussed version control workflow and branching strategy
 - Menahil presented proposed algorithms for implementation
 - Team reviewed algorithm selection criteria
@@ -62,9 +63,10 @@
 - Created initial README and documentation templates
 - Began algorithm design and pseudocode development
 - Initialized project management board
+- Organized documentation structure
 
 ### Deliverables
-- ✅ GitHub repository with initial structure
+- GitHub repository with initial structure
 - Algorithm design document (draft)
 - Project timeline and milestones
 
@@ -74,81 +76,94 @@
 
 ---
 
-## Week 4: Algorithm Development & Hardware Setup
+## Week 4: Hardware Setup & Initial Testing
 **Date Range:** November 19-25, 2025
 
 ### Meeting 4
-- Menahil provided update on algorithm implementation progress
-- Sarah joined as embedded systems team member
+- Menahil discussed algorithm implementation approach
+- Sarah started working as embedded systems team member
 - Discussed hardware requirements for deployment
-- Planned Jetson Nano integration strategy
+- Planned initial testing strategy
 
 ### Activities
 
-**Menahil's Work:**
-- Continued algorithm implementation and testing
-- Integrated algorithm code with repository
+**Research & Development (Project Lifecycle Manager):**
+- Managed GitHub repository updates
+- Documented hardware setup procedures
+- Coordinated team activities and timelines
+- Prepared progress reports
 
-**Sarah's Work:**
+**Menahil (Algorithm Development):**
+- Researching algorithm implementation details
+- Planning code structure and integration approach
+
+**Sarah (Embedded Systems):**
 - Prepared Jetson Nano for project deployment
-- ✅ Flashed Jetson Nano with appropriate OS image
-- ✅ Configured USB booting for system initialization
-- ✅ Installed essential packages and dependencies
+- Flashed Jetson Nano with appropriate OS image
+- Configured USB booting for system initialization
+- Installed essential packages and dependencies
+
+**Documentation & Simulation Team:**
+- Tested various code implementations using laptop camera
+- Documented test results and observations
+- Identified working approaches for future implementation
 
 ### Deliverables
-- Algorithm implementation (in progress)
-- ✅ Jetson Nano ready for deployment
+- Jetson Nano ready for deployment
+- Initial code testing completed (laptop camera)
 - Hardware setup documentation
+- Testing logs and findings
+- Weekly progress report
 
 ### Technical Milestones
-- ✅ Jetson Nano successfully flashed
-- ✅ USB boot configuration completed
-- ✅ Development environment established
+- Jetson Nano successfully flashed
+- USB boot configuration completed
+- Development environment established on Jetson Nano
+- Camera testing on laptop completed
 
 ---
 
-## Week 5: Integration & Testing
+## Week 5: Current Status
 **Date Range:** November 26 - December 2, 2025
 
-### Meeting 5
-- Reviewed algorithm implementation progress
-- Discussed integration between software and hardware components
-- Identified testing requirements and scenarios
-- Sarah reported on Jetson Nano performance benchmarks
+### Ongoing Work
 
-### Activities
-- Deployed algorithms on Jetson Nano
-- Conducted initial testing and debugging
-- Optimized code for embedded platform performance
-- Created test cases and validation procedures
+**Current Focus:**
+- Transitioning from laptop testing to Jetson Nano deployment
+- Refining algorithm implementation based on initial tests
+- Preparing for hardware-software integration
+- Documentation updates and report writing
 
-### Deliverables
-- Integrated system (software + hardware)
-- Initial test results
-- Performance benchmarks
+### Next Steps
+- Deploy tested code on Jetson Nano
+- Conduct performance benchmarking on embedded platform
+- Continue algorithm development and optimization
+- Document findings and prepare for integration phase
 
-### Challenges & Solutions
-- *Document any issues encountered and how they were resolved*
+**Status:** In Progress
 
 ---
 
+## Team Members & Roles
 
-## Team Members
-- **Mamona Sadaf** - Project Lifecycle(Research and devolpment)
+- **[Your Name]** - Research & Development, Project Lifecycle Management, GitHub Management, Report Writing
 - **Menahil** - Algorithm Implementation & Development
 - **Sarah** - Embedded Systems & Hardware Integration (Jetson Nano)
+- **Documentation & Simulation Team** - Code Testing, Documentation, Simulation
 
 ---
 
 ## Resources
 
 ### Hardware
-- NVIDIA Jetson Nano
+- NVIDIA Jetson Nano (configured and ready)
+- Laptop with camera (for initial testing)
 
 ### Software & Tools
 - GitHub for version control
 - Python (primary language)
 - Jetson Nano SDK and dependencies
+- Camera libraries for testing
 
 ### References
 - Literature review document
@@ -161,12 +176,31 @@
 
 | Week | Dates | Key Milestones |
 |------|-------|----------------|
-| 1 | Before Oct 22 | Research paper selection |
-| 2 | Oct 22-27 | ✅ Literature review completed |
+| 1 | Oct 15-21 | Research paper selection |
+| 2 | Oct 22-27 | Literature review completed |
 | - | Oct 28 - Nov 11 | **Mid-Semester Exams** |
-| 3 | Nov 12-18 | ✅ GitHub created, Algorithm design |
-| 4 | Nov 19-25 | ✅ Jetson Nano setup, Algorithm implementation |
-| 5 | Nov 26 - Dec 2 | Integration & Testing |
+| 3 | Nov 12-18 | GitHub created, Algorithm design |
+| 4 | Nov 19-25 | Jetson Nano setup complete, Initial camera testing |
+| 5 | Nov 26 - Dec 2 | Work in progress - Preparing for deployment |
+
+---
+
+## Current Achievements
+
+**Completed:**
+- Literature review and research documentation
+- GitHub repository setup and management
+- Jetson Nano flashing and configuration
+- USB boot setup
+- Essential installations on Jetson Nano
+- Initial code testing using laptop camera
+- Progress reports and documentation
+
+**In Progress:**
+- Algorithm implementation by Menahil
+- Documentation and test result compilation
+- Preparation for Jetson Nano deployment
+- GitHub repository maintenance and updates
 
 ---
 

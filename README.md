@@ -158,8 +158,9 @@ Florian, N., Popescu, D., & Hossu, A. (2024)
 
 ## License
 
-MIT License
-
+ License to be determined. This is an academic research project at NUST SEECS.
+ All rights reserved until licensing decision is made.
+ 
 ---
 
 ## Contact

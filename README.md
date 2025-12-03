@@ -15,7 +15,7 @@
 
 ## Overview
 
-Driver fatigue is a critical factor in road traffic accidents, accounting for approximately one-fifth of annual traffic fatalities worldwide. This project implements a real-time, non-invasive driver drowsiness detection system using computer vision and deep learning techniques, optimized for deployment on the NVIDIA Jetson Nano edge computing platform.
+Driver fatigue is a critical factor in road traffic accidents, accounting for approximately one-fifth of annual traffic fatalities worldwide. This project implements a real-time, non-invasive driver drowsiness detection system using computer vision and deep learning techniques, optimized for deployment on the NVIDIA Jetson Nano Developer Kit edge computing platform.
 
 The system analyzes facial features captured through an infrared camera to identify drowsiness indicators including eye closure patterns, yawning frequency, and temporal behaviors. By processing these visual cues in real-time, the system provides early warning alerts to drivers before their performance deteriorates.
 
@@ -363,22 +363,28 @@ Night-Time Yawning-Microsleep-Eyeblink-Driver Distraction dataset emphasizing lo
 
 Comprehensive documentation is available in the repository:
 
-**Literature Review**
+**Literature Review**  
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/Literature%20review.%20%20(1).pdf)  
 Extensive review of drowsiness detection methods, deep learning approaches, and embedded system implementations.
 
-**Survey Paper**
+**Survey Paper**  
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/3%20main%20papers/survey.paper.pdf)  
 Modern applications and methods in drowsiness detection research.
 
-**State-of-the-Art Analysis**
+**State-of-the-Art Analysis**  
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/3%20main%20papers/State%20of%20art.pdf)  
 Comparison of current leading approaches and embedded system architectures.
 
-**Implementation Reference**
+**Implementation Reference Paper**  
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/3%20main%20papers/main_paper1.pdf)  
 Primary reference paper guiding system implementation and optimization.
 
-**Project Logbook**
+**Project Logbook**  
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/logbook.md)  
 Detailed development progress, experiments, and findings throughout the project lifecycle.
 
-**Simulation Overview**
+**Simulation Overview**  
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/step%201_Beginner%20overview%20of%20simulation.pptx)  
 Beginner-friendly guide to system simulation and testing procedures.
 
 ### System Configuration
@@ -446,11 +452,17 @@ School of Electrical Engineering and Computer Science (SEECS)
 Department of Electrical Engineering  
 Islamabad, Pakistan
 
+### Supervisor
+
+**Dr. Tauseef Ur Rehman**  
+Project Supervisor  
+GitHub: [Tauseef-dr](https://github.com/Tauseef-dr)
+
 ### Project Members
 
 **Mamona Sadaf**  
 Research and Development Lead  
-msadaf.bee22seecs@seecs.edu.pk
+Email: msadaf.bee22seecs@seecs.edu.pk
 
 **Menahil Ahsan**  
 Simulation and Algorithms
@@ -458,31 +470,90 @@ Simulation and Algorithms
 **Sarah Omer**  
 Embedded Systems and Hardware Integration
 
+### Teaching Assistant
+
+**Zahid**  
+Teaching Assistant
+
+### Lab Support
+
+**Miss Tehniyyat Siddique**  
+Lab Engineer
+
 ---
 
 ## References
 
 ### Primary Publications
 
-**Survey on Drowsiness Detection**  
-Fu, B., Boutros, F., Lin, C.-T., & Damer, N.  
+**A Survey on Drowsiness Detection – Modern Applications and Methods**  
+Fu, B., Boutros, F., Lin, C.-T., & Damer, N. (2024)  
+arXiv preprint arXiv:2408.12990  
+[https://arxiv.org/abs/2408.12990](https://arxiv.org/abs/2408.12990)  
 Comprehensive survey covering modern applications and methods in drowsiness detection across multiple domains.
 
-**Real-Time Embedded System Implementation**  
-Florez, R., Palomino-Quispe, F., Alvarez, A. B., Coaquira-Castillo, R. J., & Herrera-Levano, J. C.  
+**A Real-Time Embedded System for Driver Drowsiness Detection**  
+Florez, R., Palomino-Quispe, F., Alvarez, A. B., Coaquira-Castillo, R. J., & Herrera-Levano, J. C. (2024)  
+Sensors, 24(19), 6261  
+[https://www.mdpi.com/1424-8220/24/19/6261](https://www.mdpi.com/1424-8220/24/19/6261)  
 State-of-the-art embedded system achieving high accuracy with CNN and MAR analysis on Jetson Nano.
 
-**Tiredness Detection with Jetson Nano**  
-Florian, N., Popescu, D., & Hossu, A.  
+**Real-Time Tiredness Detection System Using Nvidia Jetson Nano and OpenCV**  
+Florian, N., Popescu, D., & Hossu, A. (2024)  
+Procedia Computer Science, 242, 536-543  
+[https://www.sciencedirect.com/science/article/pii/S1877050924018209](https://www.sciencedirect.com/science/article/pii/S1877050924018209)  
 Implementation reference demonstrating real-time detection using computer vision and machine learning on embedded hardware.
 
-### Technologies
+### Technologies and Platforms
 
-- NVIDIA Jetson Nano Platform
-- OpenCV Computer Vision Library
-- TensorFlow Deep Learning Framework
-- MediaPipe Facial Landmark Detection
-- MRL Eye Dataset
+**NVIDIA Jetson Nano Developer Kit**  
+[https://developer.nvidia.com/embedded/jetson-nano-developer-kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)  
+Edge AI computing platform used for embedded deployment.
+
+**OpenCV Computer Vision Library**  
+[https://opencv.org/](https://opencv.org/)  
+Open-source computer vision and machine learning software library.
+
+**TensorFlow Deep Learning Framework**  
+[https://www.tensorflow.org/](https://www.tensorflow.org/)  
+End-to-end open-source platform for machine learning.
+
+**MediaPipe Facial Landmark Detection**  
+[https://mediapipe.dev/](https://mediapipe.dev/)  
+Cross-platform framework for building multimodal applied ML pipelines.
+
+**MRL Eye Dataset**  
+Dataset used for CNN-based drowsiness detection model training.
+
+---
+
+## Acknowledgments
+
+### Special Thanks
+
+We extend our sincere gratitude to:
+
+**Dr. Tauseef Ur Rehman**  
+Our project supervisor for guidance, support, and expertise throughout this research project.  
+GitHub: [Tauseef-dr](https://github.com/Tauseef-dr)
+
+**Jetson Nano Warriors Community**  
+For their valuable resources, tutorials, and support in learning and implementing solutions on the Jetson Nano platform.
+
+**Zahid (Teaching Assistant)**  
+For technical assistance and guidance during development and testing phases.
+
+**Miss Tehniyyat Siddique (Lab Engineer)**  
+For laboratory facilities support and hardware troubleshooting assistance.
+
+### Additional Acknowledgments
+
+- NVIDIA for the Jetson Nano Developer Kit and comprehensive development resources
+- OpenCV community for robust computer vision tools and documentation
+- TensorFlow and MediaPipe teams for powerful machine learning frameworks
+- Dataset contributors for providing training and validation data
+- NUST SEECS for research facilities, infrastructure, and institutional support
+- All researchers and academic contributors whose work informed this project
 
 ---
 
@@ -492,27 +563,26 @@ This project is licensed under the MIT License.
 
 ---
 
-## Acknowledgments
-
-- NVIDIA for Jetson Nano platform and development resources
-- OpenCV community for computer vision tools
-- Dataset contributors for training data
-- NUST SEECS for research facilities and support
-- Academic researchers whose work informed this project
-
----
-
 ## Contact
 
-**Mamona Sadaf**  
-Email: msadaf.bee22seecs@seecs.edu.pk  
-GitHub: https://github.com/Mamonasadaf/Driver-Fatigue-Detection  
-Institution: NUST SEECS
+**Primary Contact**  
+Mamona Sadaf  
+Email: msadaf.bee22seecs@seecs.edu.pk
+
+**Project Repository**  
+GitHub: [https://github.com/Mamonasadaf/Driver-Fatigue-Detection](https://github.com/Mamonasadaf/Driver-Fatigue-Detection)
+
+**Institution**  
+National University of Sciences and Technology (NUST)  
+School of Electrical Engineering and Computer Science (SEECS)  
+Islamabad, Pakistan
 
 ---
 
 <div align="center">
 
 **This is an ongoing research project under active development**
+
+**Powered by NVIDIA Jetson Nano Developer Kit**
 
 </div>

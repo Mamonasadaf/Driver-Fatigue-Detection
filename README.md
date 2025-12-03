@@ -121,13 +121,18 @@ School of Electrical Engineering and Computer Science (SEECS)
 GitHub: [Tauseef-dr](https://github.com/Tauseef-dr)
 
 ### Team Members
-- **Mamona Sadaf** - Research & Development Lead
-- **Menahil Ahsan** - Algorithms & Simulation
-- **Sarah Omer** - Embedded Systems
+- **Mamona Sadaf** - Research & Development Lead  
+  Email: msadaf.bee22seecs@seecs.edu.pk
+- **Menahil Ahsan** - Algorithms & Simulation  
+  GitHub: [MenahilAhsan](https://github.com/MenahilAhsan)
+- **Sarah Omer** - Embedded Systems  
+  GitHub: [somerbee22seecs-cmd](https://github.com/somerbee22seecs-cmd)
 
 ### Support
-- **Zahid** - Teaching Assistant
-- **Miss Tehniyyat Siddique** - Lab Engineer
+- **Zahid Hassan** - Teaching Assistant  
+  GitHub: [zahid414](https://github.com/zahid414)
+- **Miss Tehniyyat Siddique** - Lab Engineer  
+  GitHub: [tehniyatsiddique](https://github.com/tehniyatsiddique)
 
 ---
 
@@ -150,6 +155,9 @@ Florian, N., Popescu, D., & Hossu, A. (2024)
 ## Acknowledgments
 
 - **Dr. Tauseef Ur Rehman** - Project supervision and guidance
+- **Jetson Nano Warriors** - Fellow students who provided valuable training and guidance on Jetson Nano under lab supervision
+- **Zahid Hassan** - Teaching assistance and technical support
+- **Miss Tehniyyat Siddique** - Lab facilities and hardware support
 - **NVIDIA** - Jetson Nano Developer Kit and resources
 - **OpenCV, TensorFlow, MediaPipe communities** - Tools and frameworks
 - **NUST SEECS** - Research facilities and support
@@ -158,9 +166,9 @@ Florian, N., Popescu, D., & Hossu, A. (2024)
 
 ## License
 
- License to be determined. This is an academic research project at NUST SEECS.
- All rights reserved until licensing decision is made.
- 
+License to be determined. This is an academic research project at NUST SEECS.
+All rights reserved until licensing decision is made.
+
 ---
 
 ## Contact

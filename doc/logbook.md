@@ -174,6 +174,7 @@
 **Completed:**
 - Literature review and research documentation
 - GitHub repository setup and management
+- GitHub project setup and management
 - Jetson Nano flashing and configuration
 - USB boot setup
 - Essential installations on Jetson Nano

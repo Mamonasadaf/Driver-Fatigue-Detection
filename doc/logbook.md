@@ -9,16 +9,14 @@
 - Discussed and selected research paper for implementation
 - Team brainstorming session on project scope and objectives
 - Identified key challenges and requirements
-- Assigned initial research tasks to team members
+- Assigned initial tasks to team members
 
 ### Activities
-- Began literature review on the selected research paper
+- Mamona Sadaf Began literature review on the selected research paper
 - Explored related work and state-of-the-art approaches
-- Documented key concepts and methodologies from the paper
 
 ### Deliverables
 - Initial research notes and findings
-- Project proposal draft
 
 ---
 
@@ -32,7 +30,6 @@
 
 ### Activities
 - Completed comprehensive literature review
-- Documented related algorithms and techniques
 - Prepared technical background section
 - Compiled bibliography and references
 
@@ -45,7 +42,7 @@
 ## Break Period: Mid-Semester Exams
 **Date Range:** October 28 - November 11, 2025
 
-**Note:** Project work paused due to mid-semester examinations
+**Note:** Project work paused due to mid-semester exams
 
 ---
 
@@ -55,24 +52,22 @@
 ### Meeting 3
 - **GitHub Repository Created**
 - Discussed version control workflow and branching strategy
-- Menahil presented proposed algorithms for implementation
+- Menahil presented her research of algorithms and implementation strategies 
 - Team reviewed algorithm selection criteria
 
 ### Activities
+***Mamona Sadaf***
 - Set up project repository structure
 - Created initial README and documentation templates
-- Began algorithm design and pseudocode development
 - Initialized project management board
 - Organized documentation structure
 
 ### Deliverables
 - GitHub repository with initial structure
-- Algorithm design document (draft)
 - Project timeline and milestones
 
 ### Key Decisions
-- Selected primary algorithms for implementation
-- Defined coding standards and practices
+- Selected primary algorithms and approach for implementation
 
 ---
 
@@ -83,13 +78,11 @@
 - Menahil discussed algorithm implementation approach
 - Sarah started working as embedded systems team member
 - Discussed hardware requirements for deployment
-- Planned initial testing strategy
 
 ### Activities
 
 **Research & Development (Project Lifecycle Manager):**
 - Managed GitHub repository updates
-- Documented hardware setup procedures
 - Coordinated team activities and timelines
 - Prepared progress reports
 
@@ -98,33 +91,25 @@
 - Planning code structure and integration approach
 
 **Sarah (Embedded Systems):**
-- Prepared Jetson Nano for project deployment
-- Flashed Jetson Nano with appropriate OS image
-- Configured USB booting for system initialization
-- Installed essential packages and dependencies
-
-**Documentation & Simulation Team:**
-- Tested various code implementations using laptop camera
-- Documented test results and observations
-- Identified working approaches for future implementation
+- Started Preparing Jetson Nano for project deployment
 
 ### Deliverables
-- Jetson Nano ready for deployment
+- Making Jetson Nano ready for deployment
 - Initial code testing completed (laptop camera)
-- Hardware setup documentation
-- Testing logs and findings
-- Weekly progress report
 
 ### Technical Milestones
-- Jetson Nano successfully flashed
-- USB boot configuration completed
-- Development environment established on Jetson Nano
 - Camera testing on laptop completed
 
 ---
 
 ## Week 5: Current Status
 **Date Range:** November 26 - December 2, 2025
+
+### Activities 
+**Sarah (Embedded Systems):**
+- Flashed Jetson Nano with appropriate OS image
+- Configured USB booting for system initialization
+- Installed essential packages and dependencies
 
 ### Ongoing Work
 
@@ -146,17 +131,16 @@
 
 ## Team Members & Roles
 
-- **[Your Name]** - Research & Development, Project Lifecycle Management, GitHub Management, Report Writing
-- **Menahil** - Algorithm Implementation & Development
-- **Sarah** - Embedded Systems & Hardware Integration (Jetson Nano)
-- **Documentation & Simulation Team** - Code Testing, Documentation, Simulation
+- **Mamona Sadaf** - Research & Development, Project Lifecycle Management, GitHub Management, Report Writing
+- **Menahil Ahsan** - Algorithm Implementation & Development
+- **Sarah Omer** - Embedded Systems & Hardware Integration (Jetson Nano)
 
 ---
 
 ## Resources
 
 ### Hardware
-- NVIDIA Jetson Nano (configured and ready)
+- NVIDIA Jetson Nano (configured and almost ready)
 - Laptop with camera (for initial testing)
 
 ### Software & Tools

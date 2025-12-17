@@ -128,7 +128,7 @@ Results
 ## Documentation
 
 **Literature Review**  
-[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/Literature%20review.%20%20(1).pdf)
+[View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/Project%20Reports/Literature%20review.%20%20(1).pdf)
 
 **Project Logbook**  
 [View Document](https://github.com/Mamonasadaf/Driver-Fatigue-Detection/blob/main/doc/logbook.md)

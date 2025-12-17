@@ -217,9 +217,7 @@
 - Created deployment environment checklist and verification procedures
 
 **Mamona Sadaf (Project Lifecycle Manager):**
-- Compiled model validation report and performance metrics
-- Documented environment setup and comprehensive configuration details
-- Prepared deployment procedure documentation
+- Documented progress.
 - Coordinated final system readiness verification
 
 ### Deliverables
@@ -261,8 +259,6 @@
 - Created deployment environment checklist and verification procedures
 
 **Mamona Sadaf (Project Lifecycle Manager):**
-- Finalized deployment checklist and verification procedures
-- Documented system readiness status
 - Coordinated deployment execution and testing schedule
 - Updated project timeline with completion milestones
 
@@ -280,7 +276,7 @@
 
 ---
 
-## Week 9: System Integration Complete & Deployment Ready
+## Week 8: System Integration Complete & Deployment Ready
 **Date Range:** December 16, 2025
 
 ### Meeting 9
@@ -305,8 +301,6 @@
 - System fully operational and ready for model deployment
 
 **Mamona Sadaf (Project Lifecycle Manager):**
-- Finalized all documentation and deployment procedures
-- Confirmed system readiness across all components
 - Prepared testing and results collection procedures
 - Coordinated team for next phase execution
 
@@ -376,7 +370,7 @@
 | 6 | Dec 7 | 6 | Dec 3-9 | Camera module selected, CNN model development completed |
 | 7 | Dec 12 | 7 | Dec 10-14 | CNN model optimized and validated, all libraries installed on Jetson Nano |
 | 8 | Dec 15 | 8 | Dec 15 | Final system verification and deployment environment ready |
-| 9 | Dec 16 | 9 | Dec 16 | All systems integrated and verified, ready for model deployment |
+| 9 | Dec 16 | 8 | Dec 16 | All systems integrated and verified, ready for model deployment |
 
 ---
 
@@ -424,7 +418,8 @@
 - Development and Optimization: 100%
 - System Integration: 100%
 - Model Deployment: In Progress
-- Testing and Results Collection:  Pending
+- Testing and Results Collection:  In Progress
+- Final Report writing and Documentation: Pending
 
 ---
 

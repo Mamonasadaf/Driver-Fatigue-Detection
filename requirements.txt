@@ -1,6 +1,14 @@
-mediapipe==0.10.14
-torch
-torchvision
-opencv-python
-numpy
-matplotlib
+opencv-python-headless==4.8.0.74
+numpy==1.24.3
+mediapipe==0.10.3
+tensorflow==2.13.0
+keras==2.13.1
+
+# Optional but recommended for development
+matplotlib==3.7.2
+Pillow==10.0.0
+
+# For testing (optional)
+pytest==7.4.0
+flake8==6.1.0
+black==23.7.0

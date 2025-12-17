@@ -1,6 +1,5 @@
 # Real-Time Driver Drowsiness Detection System
 
-![CI](https://img.shields.io/badge/CI%20Testing-passed-brightgreen)
 ![Status](https://img.shields.io/badge/Status-In%20Development-yellow)
 ![Platform](https://img.shields.io/badge/Platform-NVIDIA%20Jetson%20Nano-green)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)

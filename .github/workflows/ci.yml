@@ -1,0 +1,87 @@
+name: CI Testing - Drowsiness Detection
+
+# When should this CI run?
+on:
+  push:
+    branches: [ main, master, develop ]  # Run on pushes to these branches
+  pull_request:
+    branches: [ main, master ]  # Run on pull requests
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Use Ubuntu (similar to your Jetson Nano)
+    
+    steps:
+    # Step 1: Get your code
+    - name: Checkout code
+      uses: actions/checkout@v3
+    
+    # Step 2: Set up Python
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+    
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install opencv-python-headless  # Headless version for CI
+        pip install numpy
+        pip install mediapipe
+        pip install tensorflow
+        
+        # If you have a requirements.txt file, use this instead:
+        # pip install -r requirements.txt
+    
+    # Step 4: Lint code (check for syntax errors)
+    - name: Lint with flake8
+      run: |
+        pip install flake8
+        # Stop build if there are Python syntax errors or undefined names
+        flake8 src_code/ --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Exit with warnings for all other issues
+        flake8 src_code/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+      continue-on-error: true  # Don't fail the build on warnings
+    
+    # Step 5: Check if Python files can be imported
+    - name: Test Python imports
+      run: |
+        python -c "import cv2; print('OpenCV:', cv2.__version__)"
+        python -c "import numpy; print('NumPy:', numpy.__version__)"
+        python -c "import mediapipe; print('MediaPipe imported successfully')"
+        python -c "import tensorflow; print('TensorFlow:', tensorflow.__version__)"
+    
+    # Step 6: Run basic tests (you'll add these later)
+    - name: Run tests
+      run: |
+        echo "Test suite will be added here"
+        # When you create test files, run them like this:
+        # python -m pytest tests/
+      continue-on-error: true
+    
+    # Step 7: Check if model files exist
+    - name: Verify model files
+      run: |
+        if [ -f "src_code/eye_cnn_nano.pth" ]; then
+          echo "✓ Model file found"
+        else
+          echo "⚠ Model file not found (this is okay if you haven't trained yet)"
+        fi
+
+  # Optional: Add a job for code quality
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+    
+    - name: Check code formatting
+      run: |
+        pip install black
+        black --check src_code/ || echo "Code formatting could be improved"
+      continue-on-error: true

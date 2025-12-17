@@ -1,14 +1,15 @@
-# Project Requirements
 
-## Core Dependencies
-These packages are required to run the main drowsiness detection pipeline on desktop or standard environments.
+opencv-python-headless==4.8.0.74
+numpy==1.24.3
+mediapipe==0.10.3
+tensorflow==2.13.0
+keras==2.13.1
 
-```text
-numpy>=1.21.0
-opencv-python>=4.5.0
-mediapipe>=0.10.0
-torch>=1.10.0
-torchvision>=0.11.0
-scipy>=1.7.0
-matplotlib>=3.4.0
-jupyterlab>=3.0.0  # For running the .ipynb notebooks
+# Optional but recommended for development
+matplotlib==3.7.2
+Pillow==10.0.0
+
+# For testing (optional)
+pytest==7.4.0
+flake8==6.1.0
+black==23.7.0

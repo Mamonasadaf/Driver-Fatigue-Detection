@@ -83,13 +83,44 @@ The system analyzes facial features captured through a camera to identify drowsi
 
 ```
 Driver-Fatigue-Detection/
-├── doc/                          # Documentation
-│   ├── Literature review.pdf     # Comprehensive research review
-│   ├── 3 main papers/            # Reference papers
-│   └── logbook.md                # Development progress log
-├── models/                       # Model files (to be added)
-├── src/                          # Source code (in development)
-└── README.md                     # This file
+Results
+│
+├── src_code/
+│   ├── Eye_Classification_CNN.ipynb
+│   ├── Media_Pipe_FaceMesh.ipynb
+│   ├── drowsiness_detV2.py
+│   ├── drowsiness_det_CNN.py
+│   ├── eye_cnn_nano.pth
+│   └── eye_cnn_nano (1).pth
+│
+├── data/
+│   └── MRI_Eye_dataset/
+│       ├── get_info.py
+│       ├── labels.txt
+│       ├── readme.md
+│       ├── split_data.py
+│       └── temp/
+│
+├── doc/
+│   ├── 3_main_papers/
+│   │   ├── State_of_art.pdf
+│   │   ├── main_paper1.pdf
+│   │   └── survey.paper.pdf
+│   │
+│   ├── Ongoing_Documentation/
+│   │   ├── Flow_diagram.png
+│   │   ├── Jetson_Nano_Drowsiness_Features.pdf
+│   │   └── step_1_Beginner_overview.md
+│   │
+│   ├── Project_Reports/
+│   │   ├── Feasibility_Report.docx
+│   │   └── Literature_review.pdf
+│   │
+│   └── logbook.md
+│
+├── CONTRIBUTING.md
+└── README.md
+
 ```
 
 ---

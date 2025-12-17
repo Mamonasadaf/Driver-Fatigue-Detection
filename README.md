@@ -19,7 +19,7 @@ The system analyzes facial features captured through a camera to identify drowsi
 
 ## Planned System Pipeline
 
-**Image Acquisition** → **Face Detection** → **Facial Landmark Detection** → **Feature Extraction** → **CNN Classification** → **Drowsiness Logic** → **Alert System**
+**Image Acquisition** → **Face Detection** →  **Feature Extraction** → **CNN Classification** → **Drowsiness Logic** → **Alert System**
 
 ---
 
@@ -64,19 +64,18 @@ The system analyzes facial features captured through a camera to identify drowsi
 - USB boot setup
 - Essential software installations (OpenCV, Python libraries)
 - Initial testing with laptop camera
-
-### In Progress
 - Algorithm implementation
 - CNN model preparation
 - Camera integration with Jetson Nano
 - Detection pipeline development
-
-### Planned
 - CNN model training with MRL Eye Dataset
 - Real-time deployment on Jetson Nano
+
+### In Progress
 - Alert system integration
 - Performance optimization
 - Comprehensive testing
+- Final Report Writing
 
 ---
 

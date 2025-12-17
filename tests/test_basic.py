@@ -29,12 +29,14 @@ class TestBasicSetup(unittest.TestCase):
             self.fail("NumPy not installed")
     
     def test_mediapipe_import(self):
-        """Test if MediaPipe can be imported"""
+        """Test if MediaPipe FaceMesh can be imported"""
         try:
             import mediapipe as mp
+            # Only test what we actually use
+            mp_face_mesh = mp.solutions.face_mesh
             self.assertTrue(True)
-        except ImportError:
-            self.fail("MediaPipe not installed")
+        except ImportError as e:
+            self.fail(f"MediaPipe not installed properly: {e}")
     
     def test_tensorflow_import(self):
         """Test if TensorFlow can be imported"""
